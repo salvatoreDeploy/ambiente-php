@@ -17,10 +17,10 @@ services:
     image: mysql:latest
     container_name: mysql
     environment:
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: laravel
-      MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER:
+      MYSQL_PASSWORD: 
+      MYSQL_DATABASE: 
+      MYSQL_ROOT_PASSWORD: 
     ports:
       - 3306:3306
     restart: always
